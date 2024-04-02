@@ -1,0 +1,166 @@
+/* CSS Guide - Index HTML
+    1.  General Styles
+    2.  Main Nav
+    3.  Main Hero Image
+    4.  Main Hero Image Contact
+    5.  Why Couples Resort
+    6.  About & FAQ
+    7.  Contact Form
+    8.  Footer 
+ */
+
+/* 1. General Styles */
+body {
+    color: #3b3b3b;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #c54242;
+    padding-top: 20px;
+ }
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+
+.cr-red {
+    color: #9a2018;
+ }
+
+/* Main Nav */
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+
+ #main-nav input, #burger-con {
+    display: none;
+ }
+
+ #main-nav input:checked ~ #burger-con {
+   display: block;
+}
+
+#main-nav input:checked ~ label img {
+   transform: rotate(90deg);
+}
+ 
+#main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+#main-nav ul li a {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #626262;
+}
+
+#spa-submenu {
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #626262;
+   border-bottom: 1px solid #c9c3c3;
+}
+#spa-submenu:hover {
+   color: #9a2018;
+   font-weight: bold;
+}
+
+#main-nav ul li a:hover {
+   color: #9a2018;
+   font-weight: bold;
+}
+
+#main-nav ul li {
+   border-bottom: 1px solid #c9c3c3;
+}
+
+#main-nav ul li:first-child {
+   border-top: 1px solid #c9c3c3;
+}
+
+#main-nav ul li:last-child {
+   margin-bottom: 10px;
+} 
+
+#logo {
+   margin-bottom: 20px;
+   max-width: 382px;
+}
+
+/* Main Hero Image */
+#index-hero {
+    background: url(../images/hero-main.jpg) no-repeat;
+    height: 200px;
+ }
+
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: #C54242;
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+
+ #hero-heading-box {
+    align-self: end;
+ }
+
+ .hero-img-h2, .hero-img-h3 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 14px;
+ }
+ 
+ .hero-img-h2 span,  .hero-img-h3 span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+
+ .hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+ .hero-summary li {
+    list-style-type:disc;
+    font-size: 14px;
+ }
+
+ /* Main Hero Image Contact Section */
+ #contact {
+    font-size: 11px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
