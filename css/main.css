@@ -158,9 +158,32 @@ input, textarea {
  }
 
  /* Main Hero Image Contact Section */
- #contact {
-    font-size: 11px;
-    background-color: #efefef;
-    padding-top: 30px;
-    padding-bottom: 30px;
+#contact-hero {
+    background: url(../images/grey-background.svg) no-repeat;
+    height: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
  }
+
+ .fas {
+    font-size: 42px;
+    color: #9a2018;
+    margin: 0 auto;
+    float: left;
+ }
+ 
+.fa-mobile-alt {
+   margin-right: 20px;
+   margin-left: 70px;
+}
+
+.fa-map-marker-alt {
+   margin-right: 17px;
+   margin-left: 70px;
+}
+
+#hero-numbers, #hero-address {
+   font-size: 14px;
+   color: #626262;
+}
+ 
