@@ -690,3 +690,79 @@ input[type="submit"]:hover {
 .rooms-list {
    font-size: 14px;
 }
+
+/* Spa Page */
+#spa-hero{
+   background: url(../images/Spa-hero.jpg) no-repeat;
+   height: 200px;
+}
+
+#spa-feature-hero-con {
+   background: url(../images/Spa-Feature.jpg) no-repeat;
+   height: 200px;
+}
+
+#spa-introduction h2 {
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+
+#spa-introduction p {
+   font-size: 14px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+#spa-inn-image {
+   float: right;
+   margin-left: 15px;
+   margin-top: 5px;
+}
+
+.spa-feature-introduction {
+   font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   margin-top: 5px;
+}
+
+.spa-container {
+   display:flex;
+   flex-direction: row;
+   justify-content:space-between;
+   font-size: 12px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#feature-box {
+   border: 1px solid #333333;
+   width: 380px;
+   height: 150px;
+   overflow: scroll;
+ }
+
+.spa-tx-name h2 {
+   font-size: 14px;
+   font-weight: bold;
+   text-decoration:underline;
+   padding-left: 10px;
+}
+
+.spa-tx-price {
+   font-size: 10px;
+   color: #9a2018;
+   font-weight: bold;
+   border-left: #9a2018 solid 5px;
+   padding-left: 10px;
+}
+
+.spa-tx-content p {
+   font-size: 12px;
+   padding-left: 10px;
+}
+
+#spa-feature-text {
+   margin-bottom: 20px;
+}
