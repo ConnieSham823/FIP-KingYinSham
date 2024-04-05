@@ -88,7 +88,6 @@ input, textarea {
    border: 0px;
    text-align: center;
    padding: 3px 20px 3px 20px;
-   margin-top: 0 auto;
    margin-right: 40px;
 }
 
@@ -555,7 +554,7 @@ input[type="submit"] {
    padding-top: 5px;
    padding-bottom: 5px;
    border: 0px;
-   margin: 0 20 22 20 ;
+   margin: 0px 20px 22px 20px ;
 }
 
 input[type="submit"]:hover {
@@ -572,7 +571,6 @@ input[type="submit"]:hover {
       /* drop down select */
 #choose-form {
    display: flex;
-   justify-content:first baseline;
    margin-top: 20px;
 }
 
