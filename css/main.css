@@ -583,14 +583,14 @@ input[type="submit"]:hover {
    padding-left: 40px;
 }
 
-#select-content {
+.select-content {
    color: #9a2018;
    padding: 3px 25px 3px 25px;
    border: #727171 solid 1px;
    border-radius: 50px;
 }
 
-#select-dropdown {
+.select-dropdown {
    display: inline;
    padding-left: 10px;
 }

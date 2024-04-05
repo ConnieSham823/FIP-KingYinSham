@@ -29,10 +29,12 @@
                         <li><a href="packages.html">Packages</a></li>
                         <li><a href="dining.html">Dining</a></li>
                         <details id="spa-submenu">
-                        <summary>Spa Activities</summary><li><a href="spa-activities.html"></a></li>
-                              <li><a href="spa.html">Spa</a></li>
-                              <li><a href="activities.html">Activities</a></li>
-                              </details>
+                            <summary>Spa Activities</summary><li><a href="spa-activities.html"></a></li> 
+                            <menu>
+                            <li><a href="spa.html">Spa</a></li>
+                            <li><a href="activities.html">Activities</a></li>
+                            </menu>
+                        </details>
                         <li><a href="reservations.html">Reservations</a></li>
                       </ul>
                 </div>
@@ -42,7 +44,6 @@
         </div>
     </header>
 
-    <main>
 <!-- Back to Top Icon -->
         <div class="grid-con col-span-full">
             <a href="#main-nav" class="top"><img src="images/back-to-top.png" alt="back to top"></a>
@@ -64,17 +65,18 @@
         <section class="hero-summary col-span-full line-separator">
             <h2 class="hidden">Rooms Introduction</h2>
             <h3>All room prices include daily 5 course dinner and breakfast.</h3>
-            <p><span>All rooms have:</span></p>
+            <h3><span>All rooms have:</span></h3>
           <div>
-                <ul>
+                <menu>
                   <li>Exceeds 5 Diamond/Star Room Standards</li>
                   <li>Private Out Door Hot Tubs</li>
                   <li>Spacious Lakeside View</li>
-                </ul>
+                </menu>
+
                 <details>
                   <summary>Read More</summary>
                     <br>
-                <ul>
+                <menu>
                   <li>Walkout Balcony or Deck</li>
                   <li>King Size Beds</li>
                   <li>Fibre-Optic Internet - Free WIFI</li>
@@ -93,7 +95,8 @@
                   <li>Safes</li>
                   <li>Alarm Clock</li>
                   <li>Drink - Tap Water - Algonquin Park Aquifer</li>
-                </ul>
+                </menu>
+                
                   </details>
           </div>
         </section>
@@ -345,15 +348,15 @@
             <div id="arrive-container" class="col-span-full line-separator">
                 <div id="arrive-date">
                     <form action="/action_page.php">
-                    <label for="arrive-date"><span>Arrive Date</span></label>
-                    <input type="date" id="arrive-date" name="arrive-date">
+                    <label><span>Arrive Date</span></label>
+                    <input type="date" name="arrive-date">
                     </form>
                 </div>
             
                 <div id="choose-form">
-                    <label for="nights"><span>Nights</span></label>
-                        <div id="select-dropdown">
-                            <select name="nights" id="select-content">
+                    <label><span>Nights</span></label>
+                        <div class="select-dropdown">
+                            <select name="nights" class="select-content">
                                 <option value="one">1</option>
                                 <option value="two">2</option>
                                 <option value="three">3</option>
@@ -362,9 +365,9 @@
                             </select>
                         </div>
           
-                    <label for="guest"><span>Guest</span></label>
-                        <div id="select-dropdown">
-                            <select name="guest" id="select-content">
+                    <label><span>Guest</span></label>
+                        <div class="select-dropdown">
+                            <select name="guest" class="select-content">
                                 <option value="one">1</option>
                                 <option value="two">2</option>
                                 <option value="three">3</option>
@@ -378,9 +381,9 @@
                     <input name="submit" type="submit" value="Check Availability">
                 </div>
             </div>   
+        </div>
+    </div>
 </section>
-
-    </main>
 
 <!-- Footer -->
 <footer class="grid-con" id="footer-hero" >        
