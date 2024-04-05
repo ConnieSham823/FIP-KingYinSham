@@ -77,6 +77,30 @@ input, textarea {
    transform: scale(1.2);
  }
 
+ #booknow-bth {
+   background-color: #9a2018;
+   width: 160px;
+   font-size: 16px;
+   font-style: italic;
+   color:#fff;
+   border-radius: 50px;
+   border: 0px;
+   padding: 5px 30px 5px 30px;
+   margin-top: 0 auto;
+   margin-left: 22px;
+   margin-right: 25px;
+   margin-bottom: 20px;
+}
+
+#booknow-bth:hover {
+   background-color:#5f5c5c;
+   text-decoration: underline;
+ }
+
+#booknow-bth span {
+color: #fff;
+}
+
 
 /* Main Nav */
 #main-nav label img {
@@ -88,11 +112,11 @@ input, textarea {
     margin-bottom: 20px; 
  } 
 
- #main-nav input, #burger-con {
+#main-nav input, #burger-con {
     display: none;
  }
 
- #main-nav input:checked ~ #burger-con {
+#main-nav input:checked ~ #burger-con {
    display: block;
 }
 
@@ -155,7 +179,6 @@ input, textarea {
 
  .book-now {
     background-color: #9a2018;
-    color: #fff;
     font-size: 16px;
     transition: 500ms linear;
     display: flex;
@@ -164,6 +187,10 @@ input, textarea {
     font-style: italic;
     transition:all 0.3s ease;
     cursor: pointer;
+ }
+
+ .book-now p {
+   color: #fff;
  }
  
  .book-now:hover {
@@ -189,12 +216,17 @@ input, textarea {
     font-size: 12px;
  }
 
+ .hero-summary h3 {
+   font-size: 14px;
+   padding-bottom: 10px;
+ }
+ 
  .hero-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
  }
- 
+
  .hero-summary li {
     list-style-type:disc;
     font-size: 14px;
@@ -242,7 +274,7 @@ input, textarea {
    padding: 0;
 }
 #why-choose-us-nav ul li {
-   margin-bottom: 10px;
+   margin-bottom: 5px;
 }
 
 #why-choose-us-nav ul li a {
@@ -471,4 +503,176 @@ input, textarea {
    margin-bottom: 20px;
    line-height: 18px;
    font-size: 11px;
+}
+
+/* Book Now Section */
+#book-now-form-hero {
+   background: url(../images/booknow.jpg) no-repeat;
+   height: 200px;
+}
+
+      /* arrive date */
+#arrive-date {
+   display: flex;
+   justify-content: center;
+}
+
+#arrive-date {
+   color: #3b3b3b;
+   text-align: center;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#arrive-date input[type="date"]{
+   background-color: #fff;
+   border: #626262 solid 1px;
+   border-radius: 50px;
+   padding: 2px 130px 5px 130px;
+   color: #cdcdcd;
+}
+
+      /* check availability button */
+input[type="submit"] {
+   background-color: #9a2018;
+   width: 160px;
+   font-size: 16px;
+   font-style: italic;
+   color:#fff;
+   border-radius: 50px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border: 0px;
+   margin: 0 20 22 20 ;
+}
+
+input[type="submit"]:hover {
+   background-color:#5f5c5c;
+   text-decoration: underline;
+}
+
+.check-bth {
+   display: flex;
+   justify-content: end;
+   margin-top: 20px;
+}
+
+      /* drop down select */
+#choose-form {
+   display: flex;
+   justify-content:first baseline;
+   margin-top: 20px;
+}
+
+#choose-form label span {
+   color: #3b3b3b;
+   font-size: 14px;
+   font-weight: bold;
+   padding-left: 40px;
+}
+
+#select-content {
+   color: #9a2018;
+   padding: 3px 25px 3px 25px;
+   border: #727171 solid 1px;
+   border-radius: 50px;
+}
+
+#select-dropdown {
+   display: inline;
+   padding-left: 10px;
+}
+
+/* Rooms Page */
+#rooms-hero {
+   background: url(../images/hero-rooms.jpg) no-repeat;
+   height: 200px;
+}
+
+.hero-summary details {
+   font-size: 14px;
+   margin-top: 20px;
+  }
+  
+.hero-summary summary {
+     background-color: #9a2018;
+     width: 100px;
+     font-size: 16px;
+     font-style: italic;
+     color:#fff;
+     border-radius: 50px;
+     padding: 2px 20px 3px 20px;
+
+  }
+  
+.hero-summary summary:hover {
+     background-color:#5f5c5c;
+     text-decoration: underline;
+   }
+
+.hero-summary span {
+   color:#9a2018;
+   font-weight: bold;
+}
+
+#rooms-nav {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+#rooms-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#rooms-nav ul li {
+   margin-bottom: 5px;
+   border-left: #727171 1px;
+}
+
+#rooms-nav ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+#rooms-nav ul li a.selected:hover {
+   border-left: #9a2018 solid 5px;
+   font-weight: bold;
+   color: #9a2018;
+   text-decoration: underline;
+   padding-left: 20px;
+ }
+
+#chateaus-hero {
+   background: url(../images/Rooms-chateaus.jpg) no-repeat;
+   height: 200px;
+}
+
+#villas-hero {
+   background: url(../images/Rooms-villas.jpg) no-repeat;
+   height: 200px;
+}
+
+#masters-hero {
+   background: url(../images/Rooms-masters.jpg) no-repeat;
+   height: 200px;
+}
+
+#exotics-hero {
+   background: url(../images/Rooms-exotics.jpg) no-repeat;
+   height: 200px;
+}
+
+#chalets-hero {
+   background: url(../images/Rooms-chalets.jpg) no-repeat;
+   height: 200px;
+}
+
+#jr-hero {
+   background: url(../images/Rooms-jr.jpg) no-repeat;
+   height: 200px;
+}
+
+.rooms-list {
+   font-size: 14px;
 }
