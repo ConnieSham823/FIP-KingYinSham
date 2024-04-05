@@ -159,6 +159,10 @@ input, textarea {
    font-weight: bold;
 }
 
+#spa-submenu li {
+   list-style: none;
+}
+
 #main-nav ul li a:hover {
    color: #9a2018;
    font-weight: bold;
