@@ -63,6 +63,21 @@ input, textarea {
    text-decoration-thickness: 3px;
 }
 
+.top {
+   --offset: 50px; 
+   position:fixed;
+   bottom: 20px;      
+   margin-right:30px; 
+   place-self: end;
+   margin-top: calc(100vh + var(--offset));
+   z-index: 300;
+ }
+
+ .top:hover {
+   transform: scale(1.2);
+ }
+
+
 /* Main Nav */
 #main-nav label img {
     width: 20px;
