@@ -41,8 +41,12 @@ input, textarea {
 }
 
 .clickdetails {
+   padding-top: 2px;
+}
+
+.clickdetails span{
    color: #3b3b3b;
-   text-decoration: underline;
+   border-bottom: #5e5e5e solid 2px;
    font-size: 11px;
 }
 
@@ -54,13 +58,12 @@ input, textarea {
    content: "💬";
 }
 
-.clickdetails:hover {
+.clickdetails span:hover {
    color: #9a2018;
    font-weight: bold;
-   font-size: 11px;
    font-style: italic;
-   text-decoration-line: underline;
-   text-decoration-thickness: 3px;
+   font-size: 11px;
+   border-bottom: #9a2018 solid 5px;
 }
 
 .top {
@@ -77,30 +80,39 @@ input, textarea {
    transform: scale(1.2);
  }
 
- #booknow-bth {
+ .booknow-bth {
    background-color: #9a2018;
-   width: 160px;
+   width: 120px;
    font-size: 16px;
-   font-style: italic;
-   color:#fff;
    border-radius: 50px;
    border: 0px;
-   padding: 5px 30px 5px 30px;
+   text-align: center;
+   padding: 3px 20px 3px 20px;
    margin-top: 0 auto;
-   margin-left: 22px;
-   margin-right: 25px;
-   margin-bottom: 20px;
+   margin-right: 40px;
 }
 
-#booknow-bth:hover {
+.booknow-bth span {
+   color: #fff;
+}
+
+.booknow-bth span:hover {
+   border-bottom: #fff solid 3px;
+   }
+
+.booknow-bth span::before {
+   content: "▶" ;
+   padding-right: 8px;
+   }
+
+.booknow-bth:hover {
    background-color:#5f5c5c;
-   text-decoration: underline;
  }
 
-#booknow-bth span {
-color: #fff;
+.room-link {
+   display: flex;
+   margin-bottom: 20px;
 }
-
 
 /* Main Nav */
 #main-nav label img {
