@@ -1,13 +1,3 @@
-/* CSS Guide - Index HTML
-    1.  General Styles
-    2.  Main Nav
-    3.  Main Hero Image
-    4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer 
- */
 
 /* 1. General Styles */
 body {
@@ -63,7 +53,7 @@ input, textarea {
    font-weight: bold;
    font-style: italic;
    font-size: 11px;
-   border-bottom: #9a2018 solid 5px;
+   border-bottom: #9a2018 solid 3px;
 }
 
 .read-more-text {
@@ -232,6 +222,10 @@ input, textarea {
 
  .book-now p {
    color: #fff;
+ }
+
+ .book-now p:hover {
+   border-bottom: #fff solid 2px;
  }
  
  .book-now:hover {
@@ -811,6 +805,10 @@ input[type="submit"]:hover {
    margin-bottom: 20px;
 }
 
+.spa-images {
+   width: 600px;
+}
+
 .spa-dropdown summary:hover {
    text-decoration: underline;
 }
@@ -931,7 +929,6 @@ input[type="submit"]:hover {
    margin-bottom: 5px;
 }
 
-
 .spa-p-con h2 {
    font-size: 16px;
    margin-bottom: 8px;
@@ -1017,3 +1014,102 @@ input[type="submit"]:hover {
    justify-content: end;
    padding-top: 20px;
 }
+
+/* Activities */
+#act-hero{
+   background: url(../images/act-hero.jpg) no-repeat;
+   height: 200px;
+}
+
+.act-introduction h2 {
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+
+.act-introduction p {
+   font-size: 14px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.act-introduction ul li {
+   font-size: 14px;
+}
+
+#act-about-hero-con{
+   background: url(../images/act-about.jpg) no-repeat;
+   height: 200px;
+}
+
+#park-act-hero-con{
+   background: url(../images/act-park-act.jpg) no-repeat;
+   height: 200px;
+}
+
+.act-image img{
+   width: 380px;
+}
+
+#fishing {
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+
+#fishing h4 {
+   padding-top: 15px;
+   padding-bottom: 5px;
+}
+
+.fishing-link span{
+   color: #3b3b3b;
+   font-size: 14px;
+   border-bottom: #3b3b3b solid 1px;
+   padding-left: 3px;
+}
+
+.fishing-link::before {
+   content: "▶" ;
+   color: #3b3b3b;
+}
+
+.fishing-link span:hover {
+   color: #9a2018;
+   font-style: italic;
+   border-bottom: #9a2018 solid 3px;
+}
+
+#lake {
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+
+#four-season-hero-con {
+   background: url(../images/act-4Season.jpg) no-repeat;
+   height: 200px;
+}
+
+#four-season-nav {
+   background-color: #CF6666;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+#four-season-nav ul {
+   list-style-type: none;
+   display: flex;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#four-season-nav ul li a {
+   color: #fff;
+   padding-left: 20px;
+}
+
+#four-season-nav ul li a:hover {
+   text-decoration: underline;
+   font-weight: bold;
+}
+
