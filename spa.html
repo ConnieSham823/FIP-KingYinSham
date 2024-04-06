@@ -13,6 +13,13 @@
                 <link rel="stylesheet" href="css/main.css">
     </head>
 <body>
+    <!-- back to top icon -->
+    <div class="grid-con">
+        <div class="col-start-3 col-span-3" id="back-to-top">
+        <a href="#main-nav"><img src="images/back-to-top.png" alt="backtop"></a>
+        </div>
+    </div>
+
     <h1 class="hidden">Welcome to The Couples Resort - Spa</h1>
 
     <!-- Main Nav -->
@@ -46,11 +53,6 @@
             <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
         </div>
     </header>
-
-<!-- Back to Top Icon -->
-    <div class="grid-con col-span-full">
-        <a href="#main-nav" class="top"><img src="images/back-to-top.png" alt="back to top"></a>
-    </div>
 
 <!-- Main Spa Hero -->
     <section id="spa-hero" class="grid-con">
@@ -545,9 +547,11 @@
                         </div>
                 </div>
 
-                <div class="check-bth"> <br>
-                    <input name="submit" type="submit" value="Check Availability">
+                <!-- Check Availibility Button -->
+                <div id="check-a">
+                    <button class="check-bth" type="button"><a href="#"><span>Check Availability</span></a></button>
                 </div>
+
             </div>   
         </div>
     </div>

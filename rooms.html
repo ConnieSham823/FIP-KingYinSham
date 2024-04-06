@@ -12,6 +12,13 @@
             <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!-- back to top icon -->
+    <div class="grid-con">
+        <div class="col-start-3 col-span-3" id="back-to-top">
+        <a href="#main-nav"><img src="images/back-to-top.png" alt="backtop"></a>
+        </div>
+    </div>
+
     <h1 class="hidden">Welcome to The Couples Resort - Rooms</h1>
 
     <!-- Main Nav -->
@@ -45,12 +52,7 @@
             <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
         </div>
     </header>
-
-<!-- Back to Top Icon -->
-        <div class="grid-con col-span-full">
-            <a href="#main-nav" class="top"><img src="images/back-to-top.png" alt="back to top"></a>
-        </div>
-        
+     
 <!-- Rooms Main Hero -->
     <section id="rooms-hero" class="grid-con">
             <h2 class="hidden">Rooms</h2>                       
@@ -381,15 +383,8 @@
                 </div>
 
                 <!-- Check Availibility Button -->
-                <div class="col-span-full">
-                    <img id="checked-image"
-                         src="images/After-check.svg"
-                         alt="GFG image" width="380"/>
-                </div>
-
                 <div id="check-a">
-                    <button class="check-bth" type="button" onclick="show()"><span>Check Availability</span></button>
-                    <button class="check-bth" type="button" onclick="hide()" style="display: none;"><span>Close</span></button>
+                    <button class="check-bth" type="button"><a href="#"><span>Check Availability</span></a></button>
                 </div>
 
             </div>   
