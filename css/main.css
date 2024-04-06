@@ -66,6 +66,32 @@ input, textarea {
    border-bottom: #9a2018 solid 5px;
 }
 
+.read-more-text {
+   text-align: end;
+}
+
+.read-more-text::before {
+   content: "▶";
+   padding-right: 3px;
+}
+
+.read-more-text:hover {
+   content: "▶";
+   color: #9a2018;
+}
+
+.read-more-text span{
+   font-size: 14px;
+   color:#3b3b3b;
+}
+
+.read-more-text span:hover {
+   color: #9a2018;
+   border-bottom: #9a2018 solid 3px;
+   font-style: italic;
+}
+
+
 .top {
    --offset: 50px; 
    position:fixed;
@@ -255,7 +281,7 @@ input, textarea {
     padding-bottom: 20px;
  }
 
- .fas {
+.fas {
     font-size: 42px;
     color: #9a2018;
     margin: 0 auto;
@@ -702,6 +728,11 @@ input[type="submit"]:hover {
    height: 200px;
 }
 
+#spa-services-hero-con {
+   background: url(../images/Spa-services.jpg) no-repeat;
+   height: 200px;
+}
+
 #spa-introduction h2 {
    font-size: 14px;
    margin-bottom: 5px;
@@ -732,12 +763,12 @@ input[type="submit"]:hover {
    flex-direction: row;
    justify-content:space-between;
    font-size: 12px;
-   margin-top: 10px;
-   margin-bottom: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
 #feature-box {
-   border: 1px solid #333333;
+   border: 1px solid #5e5e5e;
    width: 380px;
    height: 150px;
    overflow: scroll;
@@ -745,6 +776,7 @@ input[type="submit"]:hover {
 
 .spa-tx-name h2 {
    font-size: 14px;
+   color: #9a2018;
    font-weight: bold;
    text-decoration:underline;
    padding-left: 10px;
@@ -765,4 +797,223 @@ input[type="submit"]:hover {
 
 #spa-feature-text {
    margin-bottom: 20px;
+}
+
+/* Spa Services */
+.spa-dropdown summary {
+   width: 370px;
+   background-color: #9a2018;
+   color: #fff;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+.spa-dropdown summary:hover {
+   text-decoration: underline;
+}
+
+.spa-services-container {
+   display: flex;
+   justify-content:space-around;
+   }
+
+.spa-dropdown h2 {
+   color: #9a2018;
+   font-size: 14px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.spa-dropdown h3 {
+   color: #5e5e5e;
+   font-size: 14px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.spa-dropdown ul li {
+   margin-bottom: 5px;
+   font-size: 12px;
+}
+
+.b-price1 h2{
+   color: #9a2018;
+   font-weight: bold;
+   padding-left: 10px;
+   border-left: #9a2018 solid 3px;
+   margin-bottom: 5px;
+}
+
+.b-price1 h2 span{
+   color: #727171;
+   padding-left: 10px;
+}
+
+.box-text {
+   font-size: 12px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+.box-text > span {
+   color: #9a2018;
+}
+
+#hand-note h3{
+   color: #9a2018;
+   font-size: 12px;
+   text-align: center;
+}
+
+#hand-note h3::before{
+   content: "💅";
+}
+
+#hand-note h3::after{
+   content: "💅";
+}
+
+#hand-note p{
+   font-size: 12px;
+   text-align: center;
+   font-style: italic;
+}
+
+#hand-note {
+   margin-bottom: 10px;
+}
+
+/* spa Products */
+#spa-products-hero-con {
+   background: url(../images/Spa-OntarioSpa.jpg) no-repeat;
+   height: 200px;
+}
+
+#spa-products-text h2 {
+   font-size: 14px;
+   padding-bottom: 5px;
+}
+
+#spa-products-text p {
+   font-size: 12px;
+   margin-right: 5px;
+}
+
+#spa-pdt-con {
+   margin-bottom: 20px;
+}
+
+#spa-world-con {
+   margin-bottom: 20px;
+}
+
+.spa-pdt-image img{
+   float: left;
+   width: 120px;
+   padding-right: 10px;
+}
+
+.spa-world-image img{
+   float: left;
+   width: 100px;
+   padding-right: 18px;
+   padding-left: 10px;
+}
+
+/* Spa Policy */
+#spa-p-hero {
+   background: url(../images/grey-background.svg);
+   width: 412px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 5px;
+}
+
+
+.spa-p-con h2 {
+   font-size: 16px;
+   margin-bottom: 8px;
+}
+
+.spa-p-container {
+   display: flex;
+   margin-bottom: 8px;
+}
+
+#spa-p-text {
+   padding-left: 50px;
+}
+
+#spa-p-text span {
+   color: #9a2018;
+   text-decoration: underline;
+}
+
+.spa-p-remarks {
+   font-size: 11px;
+   font-style: italic;
+}
+
+.spa-policy summary {
+   width: 370px;
+   background-color: #757372;
+   color: #fff;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   font-size: 14px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.spa-policy summary:hover {
+   text-decoration: underline;
+}
+
+.spa-policy p {
+   font-size: 12px;
+}
+
+#spa-unforeseen-text {
+   font-size: 12px;
+   line-height: 20px;
+   font-style: italic;
+}
+
+.spa-unforeseen summary {
+   width: 370px;
+   background-color: #757372;
+   color: #fff;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   font-size: 14px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.spa-unforeseen summary:hover {
+   text-decoration: underline;
+}
+
+#spa-unforeseen {
+   font-size: 12px;
+   font-style: italic;
+}
+
+#spa-unforeseen-text span {
+   color: #9a2018;
+}
+
+#John {
+   color: #9a2018;
+   font-family: "Licorice", cursive;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 25px;
+   display: flex;
+   justify-content: end;
+   padding-top: 20px;
 }
