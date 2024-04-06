@@ -774,7 +774,7 @@ input[type="submit"]:hover {
    overflow: scroll;
  }
 
-.spa-tx-name h2 {
+.spa-tx-name h3 {
    font-size: 14px;
    color: #9a2018;
    font-weight: bold;
@@ -782,8 +782,8 @@ input[type="submit"]:hover {
    padding-left: 10px;
 }
 
-.spa-tx-price {
-   font-size: 10px;
+.spa-tx-price h3 {
+   font-size: 14px;
    color: #9a2018;
    font-weight: bold;
    border-left: #9a2018 solid 5px;
