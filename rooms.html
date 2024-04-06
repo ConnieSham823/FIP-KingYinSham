@@ -50,6 +50,7 @@
         <div class="grid-con col-span-full">
             <a href="#main-nav" class="top"><img src="images/back-to-top.png" alt="back to top"></a>
         </div>
+        
 <!-- Rooms Main Hero -->
     <section id="rooms-hero" class="grid-con">
             <h2 class="hidden">Rooms</h2>                       
@@ -379,9 +380,18 @@
                         </div>
                 </div>
 
-                <div class="check-bth"> <br>
-                    <input name="submit" type="submit" value="Check Availability">
+                <!-- Check Availibility Button -->
+                <div class="col-span-full">
+                    <img id="checked-image"
+                         src="images/After-check.svg"
+                         alt="GFG image" width="380"/>
                 </div>
+
+                <div id="check-a">
+                    <button class="check-bth" type="button" onclick="show()"><span>Check Availability</span></button>
+                    <button class="check-bth" type="button" onclick="hide()" style="display: none;"><span>Close</span></button>
+                </div>
+
             </div>   
         </div>
     </div>

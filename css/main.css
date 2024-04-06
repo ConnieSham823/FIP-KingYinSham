@@ -81,21 +81,6 @@ input, textarea {
    font-style: italic;
 }
 
-
-.top {
-   --offset: 50px; 
-   position:fixed;
-   bottom: 20px;      
-   margin-right:30px; 
-   place-self: end;
-   margin-top: calc(100vh + var(--offset));
-   z-index: 300;
- }
-
- .top:hover {
-   transform: scale(1.2);
- }
-
  .booknow-bth {
    background-color: #9a2018;
    width: 120px;
@@ -568,30 +553,37 @@ input, textarea {
 }
 
       /* check availability button */
-input[type="submit"] {
-   background-color: #9a2018;
-   width: 160px;
-   font-size: 16px;
-   font-style: italic;
-   color:#fff;
-   border-radius: 50px;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   border: 0px;
-   margin: 0px 20px 22px 20px ;
-}
+      #checked-image {
+         display: none;
+         margin-top: 20px;
+         margin-bottom: 20px;
+      }
 
-input[type="submit"]:hover {
-   background-color:#5f5c5c;
-   text-decoration: underline;
-}
-
-.check-bth {
-   display: flex;
-   justify-content: end;
-   margin-top: 20px;
-}
-
+      .check-bth {
+         background-color: #9a2018;
+         width: 160px;
+         font-size: 16px;
+         font-style: italic;
+         color:#fff;
+         border-radius: 50px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border: 0px;
+         margin: 0 20 22 20 ;
+      }
+      
+      .check-bth:hover {
+         background-color:#5f5c5c;
+         text-decoration: underline;
+      }
+      
+      #check-a {
+         display: flex;
+         justify-content: center;
+         margin-top: 20px;
+      }
+      
+      
       /* drop down select */
 #choose-form {
    display: flex;
@@ -1113,3 +1105,16 @@ input[type="submit"]:hover {
    font-weight: bold;
 }
 
+.top {
+   --offset: 50px; 
+   position:fixed;
+   bottom: 20px;      
+   margin-right:30px; 
+   place-self: end;
+   margin-top: calc(100vh + var(--offset));
+   z-index: 300;
+ }
+
+ .top:hover {
+   transform: scale(1.2);
+ }
